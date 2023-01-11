@@ -17,13 +17,6 @@ class _SplaceScreenState extends State<SplaceScreen>
         ..repeat();
 
   @override
-  void dispose() {
-    // TODO: implement dispose
-    super.dispose();
-    _controller.dispose();
-  }
-
-  @override
   void initState() {
     super.initState();
     Timer(

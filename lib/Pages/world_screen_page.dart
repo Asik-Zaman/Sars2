@@ -1,11 +1,9 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:pie_chart/pie_chart.dart';
 import 'package:sars2/Model/total_model.dart';
 import 'package:sars2/Pages/country_list_page.dart';
-import 'package:http/http.dart' as http;
+
 import 'package:sars2/Utility/api_services.dart';
 
 class WorldScreenPage extends StatefulWidget {
